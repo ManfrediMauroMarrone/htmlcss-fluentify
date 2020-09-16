@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Maven Pro', sans-serif;
+}
+.container{
+    width: 1240px;
+    margin: auto;
+}
+
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button{
+    border-radius: 5px;
+    background-color: lightgreen;
+    text-decoration: none;
+    padding: 7px 14px;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgba(100,222,130,0.7);
+    border-color: rgba(100,222,130,0.7);
+    color: white;
+}
+
+.button.button-secondary {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.button.button-secondary:hover {
+    color: #001A4F;
+    background-color: white;
+}
+
+header{
+    position: relative;
+    background-color: blue;
+    background-image: url(https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+header::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, transparent 0%, #001A4F 100%);
+
+}
+
+nav{
+    height: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.main-menu{
+    float: left;
+    width: 70%;
+    height: 100px;
+}
+
+#logo{
+    display: inline-block;
+    height: 100%;
+    padding-top: 30px;
+    padding-right: 30px;
+
+}
+
+#logo img{
+    height: 40px;
+}
+
+.menu{
+    display: inline-block;
+    padding-top: 30px;
+    vertical-align: top;
+}
+
+.main-menu ul li{
+    display: inline-block;
+    margin: 0 20px;
+    list-style-type: none;
+}
+
+.main-menu ul li a{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.header-buttons{
+    float: left;
+    width: 30%;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.header-buttons a {
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 14px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.header-buttons a:first-child {
+    margin-right: 20px;
+}
+
+.header-buttons a:last-child {
+    color: white;
+    text-decoration: none;
+}
+
+
+#jumbo{
+    height: 800px;
+    position: relative;
+    z-index: 2;
+    /* background-color: #051F53; */
+}
+
+.container .offer{
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    background-color: red;
+}
