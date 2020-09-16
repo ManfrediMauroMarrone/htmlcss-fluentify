@@ -10,7 +10,6 @@ body{
 .container{
     width: 1240px;
     margin: auto;
-    border-left: 1px solid black;
 }
 
 .container::after{
@@ -164,10 +163,6 @@ nav{
 
                             /* inizio project */
 
-.project{
-    background-color: red;
-}
-
 .project-image{
     width: 50%;
     float: left;
@@ -182,7 +177,13 @@ nav{
 #real-life{
     color: #65DE82;
 }
+
 .project-content h1{
+    color: #7B7B7B;
+}
+
+.project-content h2{
+    color: #011B50;
 }
 
 .project-content-paragraph{
@@ -190,12 +191,75 @@ nav{
     border-bottom: 1px solid grey;
 }
 
-.instructions{
-    height: 500px;
-    background-color: yellow;
-}
-
+                                /* inizio instructions */
 .instructions-content h1{
     text-align: center;
     padding-top: 300px;
+    margin-bottom: 30px;
+    color: #A5A5A5;
+}
+
+.instructions-content h2{
+    padding: 20px 0;
+    color: #011B50;
+}
+
+.device{
+    width: calc(100% / 3);
+    padding-bottom: 50px;
+    float: left;
+    text-align: center;
+}
+
+.profiles{
+    width: calc(100% / 3);
+    float: left;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.browser{
+    width: calc(100% / 3);
+    padding-bottom: 50px;
+    float: left;
+    text-align: center;
+}
+
+
+.device i{
+    background-color: transparent;
+    border: 2px solid #011B50;
+    border-radius: 50%;
+    font-size: 100px;
+    padding: 30px 40px;
+    color: #CDD5EE;
+}
+.device p{
+    color: #A5A5A5;
+}
+
+.profiles i{
+    background-color: transparent;
+    border: 2px solid #011B50;
+    border-radius: 50%;
+    font-size: 100px;
+    padding: 30px;
+    color: #CDD5EE;
+}
+
+.profiles p{
+    color: #A5A5A5;
+}
+
+.browser p{
+    color: #A5A5A5;
+}
+
+.browser i{
+    background-color: transparent;
+    border: 2px solid #011B50;
+    border-radius: 50%;
+    font-size: 100px;
+    padding: 30px;
+    color: #CDD5EE;
 }
