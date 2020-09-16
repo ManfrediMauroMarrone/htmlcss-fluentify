@@ -10,6 +10,7 @@ body{
 .container{
     width: 1240px;
     margin: auto;
+    border-left: 1px solid black;
 }
 
 .container::after{
@@ -23,7 +24,7 @@ body{
     background-color: lightgreen;
     text-decoration: none;
     padding: 7px 14px;
-    color: white;
+    color: #001A4F;
 }
 
 .button:hover {
@@ -135,17 +136,66 @@ nav{
     text-decoration: none;
 }
 
-
+                                /* inizio jumbo */
 #jumbo{
-    height: 800px;
     position: relative;
     z-index: 2;
-    /* background-color: #051F53; */
 }
 
 .container .offer{
-    position: absolute;
-    top: 50%;
-    transform: translatey(-50%);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.offer span{
+    display: inline-block;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.offer h1{
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+.offer p{
+    margin-bottom: 30px;
+}
+
+                            /* inizio project */
+
+.project{
     background-color: red;
+}
+
+.project-image{
+    width: 50%;
+    float: left;
+}
+
+.project-content{
+    padding-top: 150px;
+    width: 50%;
+    float: left;
+}
+
+#real-life{
+    color: #65DE82;
+}
+.project-content h1{
+}
+
+.project-content-paragraph{
+    padding: 40px 0;
+    border-bottom: 1px solid grey;
+}
+
+.instructions{
+    height: 500px;
+    background-color: yellow;
+}
+
+.instructions-content h1{
+    text-align: center;
+    padding-top: 300px;
 }
